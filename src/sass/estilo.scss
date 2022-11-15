@@ -1,24 +1,16 @@
+$primary: #EB5819 !default;
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 @import url('https://fonts.googleapis.com/css2?family=Roboto');
 
-:root{
---primary: #EB5819;
---secondary: #d35520;
---tertiary: #000000;
-}
+
 
 body{
     font-family: 'Roboto', sans-serif;
 }
 
-.text-primary{
-    color: var(--primary) !important;
-    font-weight: 800 !important;
-    margin-bottom: 40px !important;
-}
+/*Quando mudei a primary, quebrou acor do texto*/
 .btn-primary{
-    background-color: var(--primary) !important;
-    border-color: var(--primary) !important;
+    color: #fff !important;
 }
 
 
